@@ -1,6 +1,10 @@
 <template>
   <div class="app">
     <header>
+      <div class="title">
+        <img src="./assets/heart.svg" alt="site logo" />
+        <h1>Hyrule Jobs</h1>
+      </div>
       <div class="order">
         <button @click="handleClick('title')">order by title</button>
         <button @click="handleClick('salary')">order by salary</button>
@@ -54,7 +58,6 @@ export default defineComponent({
 });
 </script>
 
-
 <style>
 header {
   text-align: center;
@@ -72,4 +75,17 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
+header .title {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  width: 60px;
+  margin-right: 20px;
+}
+header h1 {
+  font-size: 3em;
+}
 </style>
+© 2022 GitHub, Inc.
+Ter
