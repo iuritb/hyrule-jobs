@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, ref, toRefs } from "vue";
+import { defineComponent, ref} from "vue";
 import JobList from "./components/JobsList.vue";
 import Job from "./types/Jobs";
 import OrderTerm from "./types/OrderTerm";
